@@ -11,9 +11,9 @@ const HomeScreen = () => {
   return (
     <ScrollView showsVerticalScrollIndicator={false}
       style={{ marginTop: 20 }}>
-      <View style={{ backgroundColor: "#000000d7", paddingTop: 40, paddingHorizontal: 20, height: 160, width: "100%" }}>
+      <View style={{ backgroundColor: "#7f00ff", paddingTop: 40, paddingHorizontal: 20, height: 160, width: "100%" }}>
         <View style={{flexDirection: "row", alignItems: "center", justifyContent: "space-between", marginBottom: 50}}>
-          <Text style={{ color: "white", fontWeight: "bold", fontSize: 18 }}>SIX PACK IN 30 DAYS</Text>
+          <Text style={{ color: "white", fontWeight: "bold", fontSize: 24 }}>SKY FITNESS CLUB</Text>
 
           {/* Dark Mode  */}
           <TouchableOpacity onPress={() => setShowIcon(!showIcon)}>
