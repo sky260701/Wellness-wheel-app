@@ -1,3 +1,5 @@
+//fitness app developed by Akash Deshmukh
+
 import { FitnessContext } from './Context';
 import StackNavigator from './StackNavigator';
 import { StatusBar } from 'expo-status-bar';
